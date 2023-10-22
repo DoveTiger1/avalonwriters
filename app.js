@@ -51,6 +51,7 @@ window.addEventListener('scroll', function () {
 // select links
 const scrollLinks = document.querySelectorAll('.scroll-link');
 scrollLinks.forEach((link) => {
+  if (link.textContent === 'blog') return;
   link.addEventListener('click', (e) => {
     // prevent default
     e.preventDefault();

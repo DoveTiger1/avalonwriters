@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      value="content marketing, blogging, seo articles, copywriting"
+      value="technical writer, content marketing, blogging, seo articles, copywriting"
     />
-    <title>Scroll</title>
+    <title>AvalonWriters / Chibuike</title>
     <!-- font-awesome -->
     <link
       rel="stylesheet"
@@ -30,7 +30,6 @@
             </div>
 
             <button class="nav-toggle">
-              <!-- <i class="fas fa-bars"></i> -->
               <img
                 class="toggle-icon"
                 src="./icons/bars.svg"
@@ -51,10 +50,8 @@
                 <a href="#about" class="scroll-link">about</a>
               </li>
               <li>
-                <a href="#blog" class="scroll-link">blog</a>
+                <a href="/blog.html" class="scroll-link">blog</a>
               </li>
-              <!-- with a heading of featured articles and a carousel that links to each article -->
-              <!-- each article should have the option to read on medium and LinkedIn -->
               <li>
                 <a href="#contact" class="scroll-link">contact</a>
               </li>
@@ -62,17 +59,23 @@
           </div>
         </div>
       </nav>
-      <!-- banner -->
-      <div class="banner">
-        <div class="container">
-          <h1>chukwuma chibuike</h1>
-          <p>
-            Freelance writer for engineering, construction, technology, the
-            financial markets, and any kind of content actually
-          </p>
-          <a href="#services" class="scroll-link btn btn-white"
-            >How I help you</a
-          >
+
+      <div class="hero-content">
+        <!-- banner -->
+        <div class="banner">
+          <div class="container">
+            <h1>chukwuma chibuike</h1>
+            <p>
+              Freelance writer for engineering, technology, construction, and
+              any kind of good content actually
+            </p>
+            <a href="#services" class="scroll-link btn btns">How I help you</a>
+          </div>
+        </div>
+
+        <!-- profile image -->
+        <div class="profile-div">
+          <img src="./pp.jpg" class="profile-img" alt="" />
         </div>
       </div>
     </header>
@@ -81,24 +84,136 @@
       <div class="title">
         <h2>My <span>services</span></h2>
       </div>
+      <h3>This is how I help YOU</h3>
+      <ul class="services-list">
+        <li>
+          You can get the best copies, long-form, and short-form SEO articles
+          for your businesses here.
+        </li>
+        <li>
+          I'll help you with any form of technical writing. You will get high
+          quality technical reports, procedural manuals, and documentations.
+        </li>
+        <li>
+          I provide versatility that covers many niches, writing styles, and
+          content and client needs.
+        </li>
+        <li>
+          Whether you need in-depth analysis of important issues, communication
+          of difficult or abstract concepts in a form easy to understand, or
+          even fun and entertaining articles, you have come to the right place.
+        </li>
+        <li>
+          I am very eager to do ghostwriting work for you, but would gladly
+          write byline articles too. I can work with you as a freelancer, as a
+          part-time staff, or even as an onboarded full staff.
+        </li>
+      </ul>
+      <p>Here, You can find out</p>
+      <a class="scroll-link btn btns" href="#about">more about me</a>
     </section>
     <!-- about -->
     <section id="about" class="section">
       <div class="title">
         <h2>about <span>me</span></h2>
       </div>
-    </section>
-    <!-- services -->
-    <section id="blog" class="section">
-      <div class="title">
-        <h2><span>blog</span></h2>
-      </div>
+      <h3>My background</h3>
+      <p>
+        I have a background in engineering and the hard sciences. So I know how
+        to write all the technical stuffs you can imagine. But as a naturally
+        good communicator, I retained my jovial and captivating tone and can
+        make the most difficult subject fun and interesting to read.
+        <br /><br />
+        I have a bachelor’s degree in civil engineering and a master’s in
+        physics and have in-depth understanding of the principles of structural
+        analysis and engineering design. I have worked in construction as a site
+        supervisor, in the supply chain industry as a warehouse staff, and also
+        in home cleaning services.
+
+        <br /><br />I have working knowledge of frontend web development, with
+        in-depth knowledge of HTML5, CSS3, and front end JavaScript, some
+        knowledge of React.js and node.js. <br /><br />I have been writing in
+        various capacities for over eight years, starting initially as a hobby,
+        and now professionally.
+
+        <br /><br />On turning professional, I have taken writing courses on
+        coursera.org, and have studied many good books and resources on
+        professional writing, copywriting, technical writing, search engine
+        optimization, and freelancing.
+
+        <br /><br />I still learn and plan to continually study more material
+        and take more courses in the spirit of continuous learning and self
+        development to be able to serve you better.
+      </p>
+
+      <h3>My writing experience and reach</h3>
+      <p>From my blog posts you will see what you get with me.</p>
+
+      <ul class="about-list">
+        <li>I can write in any voice or tone, in many niches.</li>
+        <li>
+          But I specialize in technical writing, product descriptions, product
+          manuals, and business communications for engineering, technology,
+          science, construction, and business.
+        </li>
+      </ul>
+      <p>
+        Before assessing my blog, you should know that I can equally write
+        trivia and entertaining content.
+        <br />
+        <br />
+        Here’s a link to my listicle on listverse, for example, [link]. You can
+        also visit my blog to
+        <a href="/blog.html" class="btn btns">Assess my writings</a>
+      </p>
     </section>
     <!-- contact -->
     <section id="contact" class="section">
       <div class="title">
         <h2>please <span>contact me</span></h2>
       </div>
+      <!-- contact form -->
+      <form method="post" enctype="multipart/form-data" action="" class="form">
+        <label for="firstName">
+          First Name
+          <input
+            type="text"
+            name="firstName"
+            required
+            placeholder="First name"
+          />
+        </label>
+        <label for="lastName">
+          Last Name
+          <input type="text" name="lastName" required placeholder="Last name" />
+        </label>
+        <label for="email">
+          Email
+          <input
+            type="email"
+            name="email"
+            required
+            placeholder="email address"
+          />
+        </label>
+
+        <label for="message">
+          Message
+          <textarea
+            name="message"
+            required
+            cols="30"
+            rows="10"
+            placeholder="write your message here"
+          ></textarea>
+        </label>
+
+        <label for="file">
+          <input type="file" name="upload" multiple />
+        </label>
+
+        <button type="submit" class="btn btns">Send me a message</button>
+      </form>
     </section>
     <!-- footer -->
     <footer class="section">
@@ -108,9 +223,6 @@
       </p>
     </footer>
     <a class="scroll-link top-link" href="#home">
-      <!--       <i class="fas fa-arrow-up"></i>
- -->
-
       <img class="arrow-up" src="./icons/arrow-up.svg" alt="home page" />
     </a>
 
