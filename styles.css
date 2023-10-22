@@ -563,18 +563,15 @@ footer p {
   padding: 0.5rem 1rem;
 }
 
+.form textarea {
+  border-color: var(--clr-grey-3);
+  border-radius: 0.5rem;
+}
+
 .form input:focus,
 .form textarea:focus {
   outline: none;
 }
-
-/* .form .btn,
-#about .btn,
-#services .btn,
-.banner .btn {
-  background-color: green;
-  color: var(--clr-white);
-} */
 
 .btns {
   background-color: green;
