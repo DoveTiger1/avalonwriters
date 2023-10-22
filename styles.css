@@ -431,7 +431,9 @@ header {
     font-size: 1.4rem;
   }
 
-  #about p, .services-list, .about-list  {
+  #about p,
+  .services-list,
+  .about-list {
     font-size: 1rem !important;
     min-width: 60%;
   }
@@ -468,7 +470,7 @@ header {
   list-style-image: 🏈;
   line-height: 2;
   font-size: 1.3rem;
-  color: var(--clr-grey-5);
+  color: var(--clr-grey-1);
 }
 
 #services a,
