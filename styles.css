@@ -464,7 +464,8 @@ header {
 }
 
 .services-list,
-.about-list {
+.about-list,
+ol {
   margin: 1rem auto 0;
   width: 40vw;
   list-style-type: disc;
