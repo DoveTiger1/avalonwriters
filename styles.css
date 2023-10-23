@@ -113,7 +113,7 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
+  color: var(--clr-grey-3);
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -347,8 +347,14 @@ header {
 }
 
 .profile-div {
-  width: 30%;
+/*   position: relative;
+ */  width: 30%;
 }
+
+/* .profile-div {
+  position: absolute;
+  top: 2.5rem;
+} */
 
 .profile-img {
   border-radius: 50%;
@@ -410,6 +416,8 @@ header {
   }
 
   .profile-div {
+    /* position: relative;
+    top: auto; */
     margin-top: 1rem;
     width: 40%;
   }
@@ -473,6 +481,10 @@ ol {
   line-height: 2;
   font-size: 1.3rem;
   color: var(--clr-grey-5);
+}
+
+ol {
+  list-style-type: decimal;
 }
 
 #services a,

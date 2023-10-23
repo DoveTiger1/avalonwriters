@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', Lato, Poppins, sans-serif;
+  font-size: 1.4rem;
+  background-color: rgb(242, 243, 243);
+}
+
+.contain {
+  max-width: 67vw;
+  padding: 2rem;
+  margin: 2rem auto;
+  border: 1.5px dotted rgb(61, 21, 21);
+}
+
+section {
+  max-width: 80%;
+  margin: 0 auto;
+}
+/* p {
+  color: #230e34;
+} */
+
+@media screen and (max-width: 768px) {
+  .contain {
+    min-width: 80%;
+    font-size: 1rem;
+  }
+
+  section {
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contain {
+    min-width: 90%;
+    padding: 0.2rem;
+  }
+}
+
+p {
+  margin: 1rem;
+}
+
+.points-list {
+  list-style-type: none;
+}
+
+.points-list li:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
+
+.section.footnotes p {
+  font-size: 1rem;
+}
