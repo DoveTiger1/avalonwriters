@@ -13,6 +13,7 @@ Variables
 
 :root {
   /* dark shades of primary color*/
+  --clr-background: #ede;
   --clr-primary-1: hsl(205, 86%, 17%);
   --clr-primary-2: hsl(205, 77%, 27%);
   --clr-primary-3: hsl(205, 72%, 37%);
@@ -71,8 +72,8 @@ html {
 }
 body {
   font-family: var(--ff-secondary);
-  background: var(--clr-grey-10);
-  color: var(--clr-grey-1);
+  background: var(--clr-background);
+  color: var(--clr-black);
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -347,8 +348,9 @@ header {
 }
 
 .profile-div {
-/*   position: relative;
- */  width: 30%;
+  /*   position: relative;
+ */
+  width: 30%;
 }
 
 /* .profile-div {
@@ -480,7 +482,7 @@ ol {
   list-style-image: 🏈;
   line-height: 2;
   font-size: 1.3rem;
-  color: var(--clr-grey-5);
+  color: var(--clr-black);
 }
 
 ol {
@@ -543,7 +545,7 @@ footer p {
   font-size: 1.3rem;
   margin: 1rem auto 0;
   width: 50%;
-  color: var(--clr-grey-5);
+  color: var(--clr-grey-1);
 }
 
 @media screen and (min-width: 800px) {
