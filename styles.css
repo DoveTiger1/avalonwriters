@@ -169,6 +169,11 @@ p {
   background: var(--clr-white);
   color: var(--clr-secondary);
 }
+
+.a-link {
+  text-decoration: underline;
+}
+
 /* section */
 .section {
   padding-bottom: 5rem;
@@ -590,8 +595,8 @@ footer p {
 }
 
 .btns {
-  background-color: green;
-  color: var(--clr-white);
+  background-color: var(--clr-primary-9);
+  color: var(--clr-grey-3);
   text-align: center;
 }
 
