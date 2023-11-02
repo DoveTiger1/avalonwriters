@@ -11,7 +11,7 @@ body {
 }
 
 .contain {
-  max-width: 67vw;
+  max-width: 60vw;
   padding: 2rem;
   margin: 2rem auto;
   border: 1.5px dotted rgb(61, 21, 21);
@@ -20,6 +20,11 @@ body {
 section {
   max-width: 80%;
   margin: 0 auto;
+}
+
+#main-articles,
+#opinion {
+  min-height: 50vh;
 }
 /* p {
   color: #230e34;

@@ -462,6 +462,20 @@ header {
 .title span {
   color: var(--clr-secondary);
 }
+
+.big {
+  background: #555;
+  margin: 1.5rem auto;
+  text-align: center;
+}
+big {
+  font-size: larger;
+  font-style: italic;
+  font-weight: 500;
+  color: #fff;
+
+}
+
 #about,
 #blog,
 #services,
