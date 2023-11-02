@@ -189,11 +189,11 @@ p {
     width: 95vw;
   }
 }
-main {
+/* main {
   min-height: 100vh;
   display: grid;
   place-items: center;
-}
+} */
 /*
 ===============
 Scroll
@@ -340,9 +340,10 @@ nav {
 /* hero */
 header {
   min-height: 100vh;
-  /* background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7))
-     ,
-    url(./hero-bcg.jpeg) center/cover no-repeat */
+}
+
+article#home, article#home #nav, article#home .nav-center {
+  height: auto;
 }
 
 .hero-content {
@@ -473,7 +474,6 @@ big {
   font-style: italic;
   font-weight: 500;
   color: #fff;
-
 }
 
 #about,
