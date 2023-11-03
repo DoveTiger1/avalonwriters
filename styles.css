@@ -266,9 +266,6 @@ nav {
   color: var(--clr-grey-1);
 }
 @media screen and (min-width: 800px) {
-  /* nav {
-    background: transparent;
-  } */
   .nav-center {
     width: 90vw;
     max-width: 1170px;
@@ -288,6 +285,7 @@ nav {
   }
   .links {
     display: flex;
+    justify-content: space-between;
   }
   .links a {
     background: transparent;
