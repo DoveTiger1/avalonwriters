@@ -198,6 +198,11 @@ nav {
   color: var(--clr-secondary);
 }
 
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav-header {
   display: flex;
   align-items: center;
@@ -285,7 +290,6 @@ nav {
   }
   .links {
     display: flex;
-    justify-content: space-between;
   }
   .links a {
     background: transparent;
