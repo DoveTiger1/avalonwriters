@@ -1,3 +1,4 @@
+const navbar = document.getElementById('nav');
 const listLinks = document.querySelectorAll('.links a');
 const topLink = document.querySelector('.top-link');
 
