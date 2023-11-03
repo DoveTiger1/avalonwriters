@@ -198,12 +198,10 @@ nav {
   color: var(--clr-secondary);
 }
 
-
 .nav-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
 }
 .nav-toggle {
   font-size: 1.5rem;
@@ -212,7 +210,6 @@ nav {
   border-color: transparent;
   transition: var(--transition);
   cursor: pointer;
-  width: auto;
 }
 .nav-toggle:hover {
   color: var(--clr-secondary);
@@ -279,7 +276,6 @@ nav {
   }
   .nav-header {
     padding: 0;
-    width: auto;
   }
   .nav-toggle {
     display: none;
