@@ -198,15 +198,12 @@ nav {
   color: var(--clr-secondary);
 }
 
-.nav-center {
-  display: flex;
-  justify-content: space-between;
-}
 
 .nav-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 .nav-toggle {
   font-size: 1.5rem;
@@ -281,6 +278,7 @@ nav {
   }
   .nav-header {
     padding: 0;
+    width: auto;
   }
   .nav-toggle {
     display: none;
