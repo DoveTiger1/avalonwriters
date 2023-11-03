@@ -1,4 +1,5 @@
 const listLinks = document.querySelectorAll('.links a');
+const topLink = document.querySelector('.top-link');
 
 listLinks.forEach((link) => {
   link.addEventListener('click', () => {
@@ -22,5 +23,22 @@ navToggle.addEventListener('click', function () {
     linksContainer.style.height = `${linksHeight}px`;
   } else {
     linksContainer.style.height = 0;
+  }
+});
+
+window.addEventListener('scroll', function () {
+  const scrollHeight = window.scrollY;
+  const navHeight = navbar.getBoundingClientRect().height;
+  if (scrollHeight > navHeight) {
+    navbar.classList.add('fixed-nav');
+  } else {
+    navbar.classList.remove('fixed-nav');
+  }
+  // setup back to top link
+
+  if (scrollHeight > 500) {
+    topLink.classList.add('show-link');
+  } else {
+    topLink.classList.remove('show-link');
   }
 });
