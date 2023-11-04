@@ -1,3 +1,6 @@
+const date = document.getElementById('date');
+date.innerHTML = new Date().getFullYear();
+
 const navbar = document.getElementById('nav');
 const listLinks = document.querySelectorAll('.links a');
 const topLink = document.querySelector('.top-link');
@@ -7,7 +10,7 @@ listLinks.forEach((link) => {
     e.preventDefault();
     document.location.pathname = '/';
     if (link.textContent === 'blog') {
-      document.location.href = '/blog.html';
+      document.location.href = '/articles/blog.html';
     }
   });
 });
@@ -44,7 +47,6 @@ window.addEventListener('scroll', function () {
     topLink.classList.remove('show-link');
   }
 });
-
 
 topLink.addEventListener('click', (e) => {
   // prevent default
