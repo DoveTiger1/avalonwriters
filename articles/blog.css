@@ -8,10 +8,9 @@
 
 body {
   font-family: 'Open Sans', Lato, Poppins, sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   background-color: rgb(242, 243, 243);
 }
-
 
 .contain {
   max-width: 60vw;
@@ -66,4 +65,13 @@ p {
 
 .section.footnotes p {
   font-size: 1rem;
+}
+
+.blog-img {
+  width: 90%;
+}
+
+figure {
+  margin: 1rem auto;
+  text-align: center;
 }

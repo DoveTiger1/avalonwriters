@@ -74,8 +74,8 @@ body {
   font-family: var(--ff-secondary);
   background: var(--clr-background);
   color: var(--clr-black);
-  line-height: 1.5;
-  font-size: 0.875rem;
+  line-height: 2;
+  font-size: 1.3rem;
 }
 ul {
   list-style-type: none;
@@ -453,9 +453,9 @@ ol {
   width: 40vw;
   list-style-type: disc;
   list-style-image: 🏈;
+  color: var(--clr-black);
   line-height: 2;
   font-size: 1.3rem;
-  color: var(--clr-black);
 }
 
 ol {
