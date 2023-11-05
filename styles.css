@@ -75,8 +75,9 @@ body {
   background: var(--clr-background);
   color: var(--clr-black);
   line-height: 2;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
+
 ul {
   list-style-type: none;
 }
@@ -455,7 +456,7 @@ ol {
   list-style-image: 🏈;
   color: var(--clr-black);
   line-height: 2;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 ol {
