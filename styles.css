@@ -463,6 +463,12 @@ ol {
   list-style-type: decimal;
 }
 
+@media screen and (max-width: 800px) {
+  ol {
+    width: 80%;
+  }
+}
+
 #services a,
 #about a {
   line-height: normal;
