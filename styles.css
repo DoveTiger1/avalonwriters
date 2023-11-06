@@ -466,6 +466,7 @@ ol {
 @media screen and (max-width: 800px) {
   ol {
     width: 90%;
+    list-style-position: inside;
   }
 }
 
