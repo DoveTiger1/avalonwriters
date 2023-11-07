@@ -78,7 +78,7 @@ body {
   font-size: 1rem;
 }
 
-ul {
+nav ul {
   list-style-type: none;
 }
 a {
@@ -449,11 +449,10 @@ big {
 
 .services-list,
 .about-list,
-ol {
+ol, ul {
   margin: 1rem auto 0;
   width: 40vw;
   list-style-type: disc;
-  list-style-image: 🏈;
   color: var(--clr-black);
   line-height: 2;
   font-size: 1rem;
