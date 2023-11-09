@@ -177,9 +177,10 @@
         <h2>please <span>contact me</span></h2>
       </div>
 
+      <!-- enctype="multipart/form-data" for file uploads -->
       <!-- contact form -->
       <form action="https://formspree.io/f/mwkdzjny"
-        method="POST" enctype="multipart/form-data" class="form">
+        method="POST" class="form">
         <label for="firstName">
           First Name
           <input
@@ -214,9 +215,9 @@
           ></textarea>
         </label>
 
-        <label for="file">
+        <!-- <label for="file">
           <input type="file" name="upload" multiple />
-        </label>
+        </label> -->
 
         <button type="submit" class="btn ">Click to submit</button>
       </form>
