@@ -203,6 +203,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  cursor: pointer;
 }
 .nav-toggle {
   font-size: 1.5rem;
@@ -449,7 +451,8 @@ big {
 
 .services-list,
 .about-list,
-ol, ul {
+ol,
+ul {
   margin: 1rem auto 0;
   width: 40vw;
   list-style-type: disc;
