@@ -5,6 +5,12 @@ const navbar = document.getElementById('nav');
 const listLinks = document.querySelectorAll('.links a');
 const topLink = document.querySelector('.top-link');
 
+const avatarHere = document.querySelector('.logo');
+avatarHere.addEventListener('click', (e) => {
+  e.preventDefault();
+  document.location.pathname = '/';
+});
+
 listLinks.forEach((link) => {
   link.addEventListener('click', (e) => {
     e.preventDefault();
