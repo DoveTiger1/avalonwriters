@@ -9,7 +9,6 @@
 body {
   background-color: rgb(242, 243, 243);
   font-size: 1.2rem;
-  color: #555;
 }
 
 .contain {
@@ -53,6 +52,7 @@ section.section.before-footnotes {
 
 p {
   margin: 1rem;
+  color: #555;
 }
 
 .points-list {
