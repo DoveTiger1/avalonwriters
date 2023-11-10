@@ -49,7 +49,7 @@ window.addEventListener('scroll', function () {
 
 // ********** smooth scroll ************
 
-const avatar = document.querySelector('.nav-header');
+const avatar = document.querySelector('.logo');
 avatar.addEventListener('click', (e) => {
   window.scrollTo({
     left: 0,
