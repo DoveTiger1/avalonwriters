@@ -80,9 +80,6 @@ body {
   font-size: 1rem;
 }
 
-nav ul {
-  list-style-type: none;
-}
 a {
   text-decoration: none;
 }
@@ -181,9 +178,13 @@ Scroll
 */
 /* navbar */
 nav {
-  background: var(--clr-primary-1);
   padding: 1rem 1.5rem;
 }
+
+nav ul {
+  list-style-type: none;
+}
+
 /* fixed nav */
 .fixed-nav {
   position: fixed;
@@ -271,6 +272,10 @@ nav {
   color: var(--clr-grey-1);
 }
 @media screen and (min-width: 800px) {
+  nav {
+    background: var(--clr-primary-1);
+  }
+
   .nav-center {
     width: 90vw;
     max-width: 1170px;
