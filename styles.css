@@ -460,17 +460,17 @@ big {
 .about-list,
 ol,
 ul {
-  margin: 1rem auto 0;
-  width: 40vw;
-  list-style-type: disc;
   color: var(--clr-black);
   line-height: 2;
   font-size: 1rem;
 }
 
-ol {
-  list-style-type: decimal;
+.services-list,
+.about-list {
+  width: 40vw;
+  margin: 1rem auto 0;
 }
+
 
 @media screen and (max-width: 800px) {
   ol {

@@ -82,3 +82,14 @@ figcaption {
   color: #777;
   opacity: 0.95;
 }
+
+.sudden-list {
+  width: 70%;
+  margin: auto;
+}
+
+@media screen and (min-width: 800px) {
+  .sudden-list {
+    width: 40vw;
+  }
+}

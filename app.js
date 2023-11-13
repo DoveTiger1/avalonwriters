@@ -76,7 +76,7 @@ scrollLinks.forEach((link) => {
     if (!fixedNav) {
       position = position - navHeight;
     }
-    if (navHeight > 83.1875) {
+    if (navHeight > 82) {
       position = position + containerHeight;
     }
 
