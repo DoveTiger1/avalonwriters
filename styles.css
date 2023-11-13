@@ -210,10 +210,6 @@ nav ul {
   cursor: pointer;
 }
 
-.nav-header div {
-  text-align: center;
-  position: relative;
-}
 .nav-toggle {
   font-size: 1.5rem;
   color: var(--clr-grey-1);
