@@ -222,6 +222,8 @@ nav ul {
 }
 
 .toggle-icon {
+  display: inline;
+  vertical-align: sub;
   color: #fff;
   height: 1.5rem;
   background: transparent;
@@ -469,7 +471,6 @@ ul {
   width: 40vw;
   margin: 1rem auto 0;
 }
-
 
 @media screen and (max-width: 800px) {
   ol {
