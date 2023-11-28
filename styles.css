@@ -171,6 +171,12 @@ p {
   padding-bottom: 5rem;
 }
 
+@media screen and (max-width: 800px) {
+  .section {
+    padding-bottom: 3.5rem;
+  }
+}
+
 /*
 ===============
 Scroll
