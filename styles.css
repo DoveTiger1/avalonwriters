@@ -375,6 +375,7 @@ header {
 
   .banner-inside {
     max-width: 85%;
+    margin: 0 auto;
   }
 }
 
