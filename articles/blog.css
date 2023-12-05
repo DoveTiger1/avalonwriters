@@ -64,6 +64,7 @@ p {
 }
 
 .section.footnotes p,
+footer,
 footer p {
   font-size: 1rem;
 }
