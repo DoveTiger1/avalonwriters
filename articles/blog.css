@@ -95,3 +95,24 @@ figcaption {
     width: 40vw;
   }
 }
+
+.em {
+  font-style: italic;
+}
+
+.small {
+  background-color: yellowgreen;
+  border: 2px ridge yellowgreen;
+  border-radius: 2rem;
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.5);
+  color: #333;
+  font-size: 0.8rem;
+  font-style: italic;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+.small .caption {
+  font-style: normal;
+}
