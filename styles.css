@@ -476,9 +476,13 @@ ul {
 }
 
 .services-list,
-.about-list {
+.about-list, .list {
   width: 40vw;
   margin: 1rem auto 0;
+}
+
+.alphabetical {
+  list-style-type: lower-alpha;
 }
 
 @media screen and (max-width: 800px) {
@@ -509,6 +513,14 @@ ul {
 #services a {
   display: block;
   margin: 1rem auto;
+}
+
+.blockquote1 {
+  border-left: 0.4rem solid var(--clr-primary-4);
+  color: var(--clr-primary-2);
+  margin: 3.2rem 0;
+  padding-left: 1.6rem;
+  text-align: left;
 }
 
 footer {
