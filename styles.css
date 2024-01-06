@@ -127,6 +127,12 @@ p {
   h4 {
     font-size: 1rem;
   }
+
+  @media screen and (max-width: 500px) {
+    h1 {
+      font-size: 2.3rem;
+    }
+  }
   body {
     font-size: 1rem;
   }
@@ -476,7 +482,8 @@ ul {
 }
 
 .services-list,
-.about-list, .list {
+.about-list,
+.list {
   width: 40vw;
   margin: 1rem auto 0;
 }
