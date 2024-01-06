@@ -32,6 +32,15 @@ section.section.before-footnotes {
   min-height: 50vh;
 }
 
+.centered {
+  text-align: center;
+  font-weight: bold !important;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 768px) {
   .contain {
     min-width: 80%;

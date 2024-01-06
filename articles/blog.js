@@ -16,7 +16,7 @@ listLinks.forEach((link) => {
     e.preventDefault();
     document.location.pathname = '/';
     if (link.textContent === 'blog') {
-      document.location.href = '/articles/blog.html';
+      document.location.href = '/blog.html';
     }
   });
 });
